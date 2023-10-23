@@ -1,0 +1,22 @@
+{
+  "games": [
+    {
+      "id": 0,
+      "votes": 0,
+      "name": "idea0",
+      "description": "Destructable property",
+      "features": [
+        "Rampage destructable objects but in text",
+        "NPCs don't forget your behaviors",
+      ],
+    },
+    {
+      "id": 1,
+      "votes": 0,
+      "name": "idea1",
+      "description": "Context is coming to get you",
+      "features": [
+        "environment tries to kill you",
+        "will you get lost with the sign or end up where it says?"
+      ],
+    },
