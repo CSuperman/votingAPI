@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  Voting options
+  <script src=""></script>
+
+  <!--
+
+  -->
+  <input id="form">
+
+  <button type="button" onclick="voteValidation()">Submit</button>
+
+  <p id="vote"></p>
+  
+  <script>
+  function voteValidation() {
+    // Get the value of the input field with id="numb"
+    let x = document.getElementById("form").value;
+    // If x is Not a Number or less than one or greater than 10
+    let text;
+    if (isNaN(x) || x < 1 || x > 10) {
+      text = "No, input not valid";
+    } else {
+      text = "Perfect.";
+    }
+    document.getElementById("vote").innerHTML = text;
+  }
+
+  // update the db.json with the new value
+  </script>
+</body>
+
+</html>
