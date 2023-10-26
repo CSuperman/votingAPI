@@ -6,4 +6,5 @@ const port = process.env.PORT || 9999
 
 server.use(router)
 server.use(middleware)
+server.use(jsonServer.bodyParser) // for crud operations
 server.listen(port, () => console.log('server is ready'))
